@@ -1,2 +1,1 @@
-# Tindog
-A doggy dating web application utilizing Bootstrap.
+TinDog Starting Files
