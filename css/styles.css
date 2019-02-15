@@ -52,6 +52,9 @@ h2 {
   margin: 5% 3% 5% 0;
 }
 
+.download-button i {
+  padding-right: 5px;
+}
 .title-image {
   width: 60%;
   transform: rotate(25deg);
@@ -136,4 +139,58 @@ h2 {
 
 .pricing-col {
   padding: 2% 3%;
+}
+
+
+/*==================call to action=============*/
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 15% 5%;
+}
+
+#cta h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: #fff;
+  font-size: 3.5rem;
+  padding-bottom: 5%;
+}
+
+.cta-button {
+  margin: 3% 2% 3% 0;
+  text-align: center;
+}
+.cta-button i {
+  padding-right: 5px;
+}
+
+/*=======================footer========================*/
+#footer {
+  text-align: center;
+  padding: 3% 15% 3%;
+}
+
+.footer-icons {
+  padding: 0 7px 15px;
+}
+
+#footer p {
+  color: #61615f;
+}
+
+
+/*========================Responsiveness=================*/
+
+@media screen and (max-width: 992px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
